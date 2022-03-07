@@ -1,6 +1,6 @@
-FROM sl-alpha-x-team/alpha-x-wa-bot:latest
+FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/AL4-X/--- /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/Ie5hdi3isq5qerb7sqjd1nw4os0d/effqqgeiqujrgqdqhrprfqdwneywdejejk /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Asia/Colombo
 RUN npm install supervisor -g
